@@ -222,6 +222,7 @@ img {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
 }
 .title-team {
   font-family: var(--main-font);
