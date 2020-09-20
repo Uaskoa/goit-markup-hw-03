@@ -274,10 +274,9 @@ img {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer {
   background: #2f303a;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .logo-light {
@@ -325,6 +324,7 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  flex-basis: 73px;
 }
 
 .potfolio-btn-item:not(:last-child) {
@@ -339,8 +339,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   background: #f5f4fa;
+  padding: 6px 22px;
 
-  width: 128px;
   height: 38px;
   border-radius: 4px;
   border-color: #f5f4fa;
