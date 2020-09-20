@@ -50,7 +50,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  /* margin: 0 0; */
 }
 
 .navigation .list {
@@ -114,7 +113,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-  max-width: 1600px;
+  width: 1600px;
   text-align: center;
   margin: 0 auto;
 }
@@ -126,7 +125,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  max-width: 696px;
+  width: 696px;
 
   margin: 0 auto 30px;
 }
@@ -143,6 +142,8 @@ img {
   min-width: 200px;
   height: 50px;
   border-radius: 4px;
+  border-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ======END HERO====== */
@@ -155,13 +156,13 @@ img {
 }
 .advantages-list {
   display: flex;
-
   justify-content: space-between;
 }
 
-.advantages-list-item:not(:last-child) {
+/* не нужно, так как с этим справляется justify-content: space-between; оставляю в комментариях для себя */
+/* /* .advantages-list-item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .advantages-list-item {
   width: 270px;
@@ -199,9 +200,6 @@ img {
   justify-content: space-between;
 }
 
-.skills-img {
-  margin-bottom: 30px;
-}
 .title-skills {
   font-weight: 700;
   font-size: 36px;
@@ -238,6 +236,17 @@ img {
   margin-bottom: 50px;
 }
 
+.team-img {
+  margin-bottom: 30px;
+}
+
+.team-card {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -256,6 +265,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-descriprion-color);
   text-align: center;
+  margin-bottom: 30px;
 }
 /* ======END TEAM====== */
 
@@ -268,7 +278,6 @@ img {
 
 .footer {
   background: #2f303a;
-  margin: 0 auto;
 }
 
 .logo-light {
@@ -351,6 +360,7 @@ img {
   width: 128px;
   height: 38px;
   border-radius: 4px;
+  border-color: #f5f4fa;
 }
 
 .choice-btn:hover,
