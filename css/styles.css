@@ -60,6 +60,12 @@ img {
   display: flex;
 }
 
+.navigation-item .list-item,
+.address-item .list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .logo-dark {
   font-family: var(--secondary-font);
   font-weight: 700;
