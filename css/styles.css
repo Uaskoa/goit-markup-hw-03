@@ -119,9 +119,12 @@ img {
 
 .list-item:hover,
 .list-item:focus,
-.list-item:active {
+.list-item:active,
+.current {
   color: var(--accent-color);
 }
+
+
 
 .header-contacts {
   color: var(--main-descriprion-color);
